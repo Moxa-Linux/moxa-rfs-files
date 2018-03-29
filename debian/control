@@ -1,0 +1,16 @@
+Source: moxa-rfs-files
+Section: admin
+Priority: required
+Maintainer: Elvis Yao <ElvisCW.Yao@moxa.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://www.moxa.com/
+
+Package: moxa-rfs-files
+Architecture: any
+Depends: ${misc:Depends},vim,ethtool,ifenslave-2.6,
+         tcpdump,apache2,ntp,libjson-c-dev,jq,u-boot-tools,
+         openssh-client,openssh-server,locales,sudo,parted,
+         udisks2,snmpd
+Description: Prepare Moxa root filesystem required files
+ It contains the necessary files for setting up Moxa pure root filesystem

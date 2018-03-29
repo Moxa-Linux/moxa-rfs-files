@@ -1,0 +1,5 @@
+moxa-rfs-files (1.0.0+deb9) stretch; urgency=low
+
+  * Initial Release.
+
+ -- Elvis Yao (姚家瑋) <ElvisCW.Yao@moxa.com>  Tue, 27 Mar 2018 10:56:28 +0800
