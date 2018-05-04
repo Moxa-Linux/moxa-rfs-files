@@ -14,7 +14,7 @@ set -e
 # the debian-policy package
 
 case "$1" in
-	install|upgrade)
+	install)
 		# Modify APT source list
 		echo "nameserver 8.8.8.8" > /etc/resolv.conf
 		cat /dev/null > /etc/apt/sources.list
@@ -39,9 +39,15 @@ case "$1" in
 			fi
 			echo -e "\ndeb  http://security.debian.org/ ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
 			echo -e "#deb-src  http://security.debian.org/ ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
-		fi	
+		fi
+		# disable service
+		systemctl disable rsyslog.service
+		systemctl disable ntp.service
+		systemctl disable apache2.service
+		systemctl disable snmpd.service
 	;;
-
+	upgrade)
+	;;
 	abort-upgrade)
 	;;
 
