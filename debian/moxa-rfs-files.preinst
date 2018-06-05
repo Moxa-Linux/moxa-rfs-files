@@ -37,8 +37,8 @@ case "$1" in
 				echo -e "\ndeb  http://deb.debian.org/debian ${DIST_VERION}-backports-sloppy main contrib non-free" >> /etc/apt/sources.list
 				echo -e "#deb-src  http://deb.debian.org/debian ${DIST_VERION}-backports-sloppy main contrib non-free" >> /etc/apt/sources.list
 			fi
-			echo -e "\ndeb  http://security.debian.org/ ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
-			echo -e "#deb-src  http://security.debian.org/ ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
+			echo -e "\ndeb  http://security.debian.org/debian-security ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
+			echo -e "#deb-src  http://security.debian.org/debian-security ${DIST_VERION}/updates main contrib non-free" >> /etc/apt/sources.list
 		fi
 		# disable service
 		systemctl disable rsyslog.service
