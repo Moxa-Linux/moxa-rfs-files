@@ -1,0 +1,3 @@
+motd /etc
+resolv.conf /etc
+sources.list /etc/apt

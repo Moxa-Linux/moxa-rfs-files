@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: moxa-rfs-files
-Source: http://gitlab.syssw.moxa.com/ElvisCW_Yao/moxa-rfs-files
+Source: http://gitlab.syssw.moxa.com/KenCJ_Chou/moxa-rfs-files
 
 Files: *
 Copyright: 2018 MXcore
@@ -8,6 +8,7 @@ License: Apache-2.0
 
 Files: debian/*
 Copyright: 2018 Elvis Yao <ElvisCW.Yao@moxa.com>
+           2018 Ken CJ Chou <KenCJ.Chou@moxa.com>
 License: Apache-2.0
 
 License:   Apache-2.0
