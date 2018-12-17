@@ -1,3 +1,9 @@
+moxa-rfs-files (1.0.5+deb9) stretch; urgency=low
+
+  * refactor: install to sources.list.d instead of replacing sources.list
+
+ -- Ken CJ Chou <KenCJ.Chou@moxa.com>  Mon, 17 Dec 2018 11:00:23 +0800
+
 moxa-rfs-files (1.0.4+deb9) stretch; urgency=low
 
   * Remove pre/postinstall script, use files to install
