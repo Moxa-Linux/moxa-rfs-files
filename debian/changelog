@@ -1,3 +1,9 @@
+moxa-rfs-files (1.0.4+deb9) stretch; urgency=low
+
+  * Remove pre/postinstall script, use files to install
+
+ -- Ken CJ Chou <KenCJ.Chou@moxa.com>  Thu, 07 Jun 2018 18:23:44 +0800
+
 moxa-rfs-files (1.0.3+deb9) stretch; urgency=low
 
   * fix: remove disable service when preinstal
